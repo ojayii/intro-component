@@ -1,0 +1,12 @@
+$breakpoints: (
+    "zero": 0rem,
+    "mobile": 47.9875rem,
+    "tablet": 63.9875rem,
+    "infinity": 100000rem,
+);
+
+@mixin break($min, $max) {
+    @media (min-width: map-get($breakpoints, $min)) and (max-width: map-get($breakpoints, $max)) {
+        @content
+    }
+} 

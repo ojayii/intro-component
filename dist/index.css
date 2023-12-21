@@ -1,11 +1,67 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+:root {
+  --red: hsla(0, 100%, 74%, 0.842);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --darkBlue: hsl(249, 10%, 26%);
+  --grayishBlue: hsl(246, 25%, 77%);
+}/*# sourceMappingURL=index.css.map */ text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}/*# sourceMappingURL=index.css.map */-box;
-  margin: 0;
-  padding: 0;
+}
+
+body {
+  background: url(/app/images/bg-intro-mobile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 47.9875rem) and (max-width: 100000rem) {
+  body {
+    background: url(/app/images/bg-intro-desktop.png);
+  }
+}
+
+.container {
+  background-color: var(--red);
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 5% 3rem 5%;
+}
+@media (min-width: 47.9875rem) and (max-width: 100000rem) {
+  .container {
+    display: flex;
+  }
+}
+.container__header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+  padding-inline: 3%;
+}
+.container__header__h1 {
+  line-height: 1.3;
+  font-size: clamp(1rem, 6.8vw, 2rem);
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+.container__header__p {
+  font-weight: 500;
+}
+.container__main-content__top {
+  width: 100%;
+  padding: 1.2rem 15%;
+  text-align: center;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 11px;
+  margin-bottom: 1.7rem;
+  box-shadow: 0 0.6rem 0.1rem rgba(20, 20, 20, 0.2);
+}
+.container__main-content__top__text {
+  line-height: 1.7;
+}
+.container__main-content__top__text span {
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
