@@ -1,0 +1,23 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body, html {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background-color: blue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
