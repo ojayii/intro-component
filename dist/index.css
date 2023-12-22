@@ -4,11 +4,7 @@
   --blue: hsl(248, 32%, 49%);
   --darkBlue: hsl(249, 10%, 26%);
   --grayishBlue: hsl(246, 25%, 77%);
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
+}/*# sourceMappingURL=index.css.map */ text-align: center;
 }
 
 .attribution a {
@@ -20,7 +16,7 @@ footer {
   bottom: 0.5rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 100%;
 }
 
 body {
