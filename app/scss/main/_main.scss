@@ -67,7 +67,7 @@ body {
         text-align: center;
         margin-bottom: 3rem;
         color: white;
-        padding-inline: 8%;
+        padding-inline: 2%;
 
         @include p.break(tablet, infinity) {
             padding: 0;
@@ -82,14 +82,18 @@ body {
             margin-bottom: 1.4rem;
 
             @include p.break(tablet, infinity) {
-                line-height: 1;
+                line-height: 1.1;
             }
         }
 
         &__p {
             font-weight: 500;
             line-height: 1.4;
-            font-size: clamp(1rem, 6.8vw, 1.2rem);
+            font-size: 1rem;
+
+            @include p.break(tablet, infinity) {
+                line-height: 1.6;
+            }
         }
     }
 

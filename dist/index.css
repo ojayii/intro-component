@@ -4,11 +4,8 @@
   --blue: hsl(248, 32%, 49%);
   --darkBlue: hsl(249, 10%, 26%);
   --grayishBlue: hsl(246, 25%, 77%);
-}/*# sourceMappingURL=index.css.map */ text-align: center;
-}
-
-.attribution a {
-  color: hsl(0, 0%, 0%);
+}/*# sourceMappingURL=index.css.map */pins", sans-serif;
+}/*# sourceMappingURL=index.css.map */0%, 0%);
 }
 
 footer {
@@ -71,7 +68,7 @@ body {
   text-align: center;
   margin-bottom: 3rem;
   color: white;
-  padding-inline: 8%;
+  padding-inline: 2%;
 }
 @media (min-width: 63.9875rem) and (max-width: 100000rem) {
   .container__header {
@@ -88,13 +85,18 @@ body {
 }
 @media (min-width: 63.9875rem) and (max-width: 100000rem) {
   .container__header__h1 {
-    line-height: 1;
+    line-height: 1.1;
   }
 }
 .container__header__p {
   font-weight: 500;
   line-height: 1.4;
-  font-size: clamp(1rem, 6.8vw, 1.2rem);
+  font-size: 1rem;
+}
+@media (min-width: 63.9875rem) and (max-width: 100000rem) {
+  .container__header__p {
+    line-height: 1.6;
+  }
 }
 @media (min-width: 63.9875rem) and (max-width: 100000rem) {
   .container__main-content {
