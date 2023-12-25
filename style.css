@@ -24,14 +24,14 @@ footer {
 }
 
 body {
-  background: url(/app/images/bg-intro-mobile.png);
+  background: url(images/bg-intro-mobile.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 @media (min-width: 63.9875rem) and (max-width: 100000rem) {
   body {
-    background: url(/app/images/bg-intro-desktop.png);
+    background: url(images/bg-intro-desktop.png);
   }
 }
 
