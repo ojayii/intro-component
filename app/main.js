@@ -11,6 +11,7 @@ claimBtn.addEventListener("click", () => {
         errorMsg(inputCan[1], "Last name cannot be empty")
         errorMsg(inputCan[2], "Email adress cannot be empty")
         errorMsg(inputCan[3], "Password cannot be empty")
+        navigator.vibrate(150)
     } else if (inputs[0].value.trim() === "") {
         errorMsg(inputCan[0], "First name cannot be empty")
     } else if (inputs[1].value.trim() === "") {
@@ -19,6 +20,7 @@ claimBtn.addEventListener("click", () => {
         errorMsg(inputCan[2], "Email adress cannot be empty")
     } else if (emailReg.test(inputs[2].value.trim()) === false) {
         errorMsg(inputCan[2], "Looks like this is not an email")
+        navigator.vibrate(150)
     } else if (inputs[3].value.trim() === "") {
         errorMsg(inputCan[3], "Password cannot be empty")
     } else {
